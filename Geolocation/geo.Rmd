@@ -1,0 +1,40 @@
+---
+title: "Interactive Geolocation Map"
+output:
+  html_document:
+    theme: readable
+---
+
+Location of road observation cameras (PTZ) in Montreal area.
+
+* Date: February 1, 2017
+* **[Code]**()
+
+```{r}
+data <- read.csv(
+"http://ville.montreal.qc.ca/circulation/sites/ville.montreal.qc.ca.circulation/files/cameras-de-circulation.csv")
+ 
+cameras <- data.frame(
+        lat = c(data$description), 
+        long = c(data$latitude), 
+        camid = c(data$titre))
+```
+
+```{r, dpi = 130}
+library(leaflet)
+library(leaflet.extras)
+ 
+cameras %>% 
+        leaflet() %>% 
+        addTiles('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', 
+attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>,
+<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> — Map data ©
+<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>') %>% 
+        addProviderTiles(providers$CartoDB.DarkMatter) %>% 
+        addCircleMarkers(
+                ~long, ~lat, 
+                popup = ~as.character(camid), 
+                clusterOptions = markerClusterOptions(), 
+                radius = 2, 
+                color = "yellow")
+```
