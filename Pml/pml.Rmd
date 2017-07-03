@@ -7,36 +7,33 @@ output:
     code_folding: hide
 ---
 
-### Location of road observation cameras (PTZ) in Montreal area.
-
-
 * Date: February 4, 2017
-* **[Code](https://github.com/danvargg/folio/tree/master/Geolocation)**
+* **[Code](https://github.com/danvargg/folio/tree/master/Pml)**
 * Category: Machine Learning
 * Technologies: R, Caret
 * Algorithms: Decision Trees, Random Forests
 
 ## Introduction
 
-Using devices such as *Jawbone Up*, *Nike FuelBand*, and *Fitbit* it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, your goal will be to use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants, and predict the manner in which they did the exercise. This is the `classe` variable in the training set. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. More information is available from the website [here](http://groupware.les.inf.puc-rio.br/har) (see the section on the Weight Lifting Exercise Dataset).
+Using devices such as *Jawbone Up*, *Nike FuelBand*, and *Fitbit* it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health and to find patterns in their behavior. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, I will be to use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants, and predict the manner in which they did the exercise. This is the `classe` variable in the training set. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. More information is available from the website **[here](http://groupware.les.inf.puc-rio.br/har)**.
 
-* The training data for this project are available [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv)
+* The training data for this project are available **[here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv)**
 
-* The test data are available [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv)
+* The test data are available **[here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv)**
 
-* The data for this project come from this [source](http://groupware.les.inf.puc-rio.br/har)
+* The data for this project come from this **[source](http://groupware.les.inf.puc-rio.br/har)**
 
 ## Processing the Data
 
 #### Loading the Data
 
 ```{r}
-trainURL <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
-download.file(trainURL, destfile = "./pml-training.csv")
-testURL <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
-download.file(testURL, destfile = "./pml-testing.csv")
-traindata <- read.csv("./pml-training.csv", na.strings=c("NA","#DIV/0!",""))
-testdata <- read.csv("./pml-testing.csv", na.strings=c("NA","#DIV/0!",""))
+traindata <- read.csv(
+        "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv", 
+        na.strings = c("NA", "#DIV/0!", ""))
+testdata <- read.csv(
+        "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv", 
+        na.strings = c("NA", "#DIV/0!", ""))
 ```
 
 #### Cleaning the Data
