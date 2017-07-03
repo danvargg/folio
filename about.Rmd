@@ -1,0 +1,44 @@
+---
+title: "About Me"
+output:
+  html_document:
+    theme: cosmo
+---
+
+# Summary
+
+Daniel Vargas is an Industrial Engineering and Continuous Improvement professional with 10+ years of progressive and extensive experience defined by leadership and achievements in high profile, industry-leading companies. A change management agent with exceptional background working in leadership and technical roles focused on Lean Thinking and Data Science applied to product development and operations, in both transactional and manufacturing environments: working for leading companies in Aerospace, Medical Devices and Consumer Goods.
+
+# Experience
+
+* Bombardier Aerospace – Continuous Improvement Specialist
+* Quality Global Business – Lean Six Sigma Black Belt Consultant
+* Johnson & Johnson – Technical Assurance & Validation Engineer II
+* CEA Medical Manufacturing – Manufacturing Engineer
+* ANDIN International – Process Engineering Supervisor
+* MAERSK Line – Intermodal & Equipment Control Coordinator
+
+# Technologies
+
+R | Solidworks | Minitab | Arena | Simul8 | SPSS | Crystal Ball
+
+# Education & Certifications
+
+* Machine Learning A-Z | 2017
+* Data Science at Scale Specialization | 2017
+* Data Science Specialization | 2017
+* Professional Agile Development | 2016
+* MEng. Engineering Management | 2014
+* Certified Lean Six Sigma Black Belt | 2012
+* BSc. Industrial Engineering | 2008
+* Industrial Production and Quality Technician | 2004
+
+# Languages
+
+Spanish | English | French
+
+### icons / links
+
+* Linkedin
+* Twitter
+* Github
