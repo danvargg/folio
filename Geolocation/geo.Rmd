@@ -2,13 +2,17 @@
 title: "Interactive Geolocation Map"
 output:
   html_document:
-    theme: readable
+    theme: simplex
+    highlight: tango
+    code_folding: hide
 ---
 
-Location of road observation cameras (PTZ) in Montreal area.
+### Location of road observation cameras (PTZ) in Montreal area.
+
 
 * Date: February 1, 2017
-* **[Code]**()
+* **[Code](https://github.com/danvargg/folio/tree/master/Geolocation)**
+* Technologies: R, Leaflet
 
 ```{r}
 data <- read.csv(
