@@ -36,9 +36,3 @@ R | Solidworks | Minitab | Arena | Simul8 | SPSS | Crystal Ball
 # Languages
 
 Spanish | English | French
-
-### icons / links
-
-* Linkedin
-* Twitter
-* Github

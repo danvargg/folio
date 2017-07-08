@@ -2,7 +2,7 @@
 
 * Author: [Daniel Vargas](https://www.linkedin.com/in/daniel-vargas-64210b26)
 * Date: June 16, 2017
-* [Code](https://github.com/danvargg/Data-Science-Capstone/tree/master/Shiny)
+* [Code](https://github.com/danvargg/folio/tree/master/nextword)
 
 ### The project
 
