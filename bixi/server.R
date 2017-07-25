@@ -4,7 +4,7 @@ source("bixi.R")
 
 function(input, output, session) {
         output$map <- renderLeaflet({
-                invalidateLater(30000, session)
+                invalidateLater(60000, session)
                 json %>% 
                         leaflet() %>%
                         addTiles(
@@ -18,6 +18,11 @@ function(input, output, session) {
                                          radius = 5, 
                                          color = "red", 
                                          stroke = FALSE, 
-                                         fillOpacity = 0.7)
+                                         fillOpacity = 0.7) %>% 
+                        addLegend("bottomleft", 
+                                  colors = c("blue", "red"),
+                                  labels = c("Inactive", "Active"),
+                                  title = "Station Status",
+                                  opacity = 1)
         })
 }

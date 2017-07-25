@@ -16,3 +16,7 @@ json <- as.data.frame(fromJSON("https://secure.bixi.com/data/stations.json"))
 
 json$lat <- json$stations.la
 json$lng <- json$stations.lo
+
+json$stations.st = factor(json$stations.st,
+                           levels = c(0, 1),
+                           labels = c("Inactive", "Active"))
