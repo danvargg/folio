@@ -1,5 +1,6 @@
 library(jsonlite)
 library(leaflet)
+library(curl)
 
 options(digits = 10) ## Increase decimal precision for coordinates
 
