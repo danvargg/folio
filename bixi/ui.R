@@ -2,15 +2,13 @@ library(shiny)
 library(shinythemes)
 library(leaflet)
 
-source("bixi.R")
-
 shinyUI(fluidPage(
+        tags$style(type = "text/css", "#map {height: calc(100vh - 120px) !important;}"),
         theme = shinytheme("cerulean"),
         titlePanel("Real Time Bixi Stations in Montreal"),
-        mainPanel(tabsetPanel(
+        tabsetPanel(
                 tabPanel("Stations",
-                         leafletOutput("map", height = "800px", width = "1800px")), 
+                         leafletOutput("map")),
                 tabPanel("About", includeMarkdown("bixi.md"))
-                ))
         )
-)
+))
