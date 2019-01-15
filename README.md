@@ -1,14 +1,14 @@
 # Data Science Portfolio of Projects
 
-This is a repository containing data science projects completed by me for academic purposes and and hobby purposes. Presented in the form of iPython Notebooks, and R markdown files (published at RPubs).
+[https://twitter.com/dvargasguzman](http://i.imgur.com/tXSoThF.png) 
 
-For a more visually pleasant experience for browsing the portfolio, check out [sajalsharma.com](http://sajalsharma.com)
-
-#### The R portfolio is located [here](http://rpubs.com/sajal_sharma/).
-
-_Note: Data used in the projects (accessed under data directory) is for demonstration purposes only._
+This is a repository containing data science projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
 
 ## Contents
+
+- ### Artificial Intelligence (Deep Learning)
+  [MPPAI]
+
 
 - ### Machine Learning
 
