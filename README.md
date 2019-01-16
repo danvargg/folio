@@ -8,6 +8,7 @@ This is a repository containing data science projects completed by me for freela
   
   - [MPPA]
     - [Code](https://google.ca)
+    
   _Tools: Python, CNTK, Numpy, Matplotlib_
 
 - ### Machine Learning
@@ -35,7 +36,7 @@ This is a repository containing data science projects completed by me for freela
   - [Interactive Geolocation Map](http://rpubs.com/danvargg/geomap): Location of road observation cameras (PTZ) in Montreal area.
   
     - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd)
-    - [Implementation](http://rpubs.com/danvargg/geomap)
+    - [Application](http://rpubs.com/danvargg/geomap)
   
   _Tools: R, Leaflet_
   
