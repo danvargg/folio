@@ -49,7 +49,7 @@ This is a repository containing data science projects completed by me for freela
 
   - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
 
-![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
+![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG | width=48)
 
     - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap)
   
