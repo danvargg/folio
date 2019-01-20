@@ -41,7 +41,7 @@ This is a repository containing data science projects completed by me for freela
 
 - ### Natural Language Processing
 
-	- [Next Word](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
+	  - [Next Word](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
 
 	_Tools: NLTK, scikit_
 
@@ -49,24 +49,20 @@ This is a repository containing data science projects completed by me for freela
 
   - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
 
-![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG | width=48)
+![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
 
-    - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap)
-  
-  _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
 
-  - [Brasil Climate](http://rpubs.com/danvargg/geomap): Location of road observation cameras (PTZ) in Montreal area.
-  
-    - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd)
-    - [Application](http://rpubs.com/danvargg/geomap)
-  
-  _Tools: R, Leaflet_
+  - __Brasil Climate__: Location of road observation cameras (PTZ) in Montreal area.
 
-  - [Bixi](http://rpubs.com/danvargg/geomap): Location of road observation cameras (PTZ) in Montreal area.
+![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
   
-    - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd)
-    - [Application](http://rpubs.com/danvargg/geomap)
-  
-  _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
+
+  - __Bixi__: Location of road observation cameras (PTZ) in Montreal area.
+
+![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
+
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
 
 _Note: Codes and data have been modified to keep data and original code confidentiality_
