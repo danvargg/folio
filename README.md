@@ -12,7 +12,7 @@ This is a repository containing data science projects completed by me for freela
   _Tools: Python, Keras, Numpy, Matplotlib_
   _Algorithms: CNN_
 
-  - [Bees Classification]
+  - [Medical Imaging]
     - [Code](https://google.ca)
     
   _Tools: Python, CNTK, Numpy, Matplotlib_
@@ -47,10 +47,11 @@ This is a repository containing data science projects completed by me for freela
 
 - ### Data Visualisation
 
-  - [Interactive Geolocation Map](http://rpubs.com/danvargg/geomap): Location of road observation cameras (PTZ) in Montreal area.
-  
-    - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd)
-    - [Application](http://rpubs.com/danvargg/geomap)
+![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
+
+  - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
+
+    - [Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap)
   
   _Tools: R, Leaflet_
 
