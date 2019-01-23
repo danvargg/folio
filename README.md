@@ -7,24 +7,18 @@ This is a repository containing data science projects completed by me for freela
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: Coming Soon!
-[Notebook](https://google.ca) _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
+[Notebook](https://google.ca) | _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
 
   - __Medical Imaging__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) _Tools: Python, Tensorflow, Numpy, Matplotlib_
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib_
 
 - ## Machine Learning
 
-	- __Clicks Prediction__: Coming Soon!
+	- __Clicks Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __NYC Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- __NYC Prediction__: Coming Soon!
-
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
-
-	- __Stocks Prediction__: Coming Soon!
-
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __Stocks Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
 	- __Eyetrack__: Coming Soon!
 
@@ -32,9 +26,7 @@ This is a repository containing data science projects completed by me for freela
 
 [Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | _Algorithms: Random Forest, K-Means, Logistic Regression_
 
-	- __Aura__: Coming Soon!
-
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __Aura__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
 - ## Natural Language Processing
 
