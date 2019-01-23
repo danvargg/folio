@@ -46,7 +46,7 @@ This is a repository containing data science projects completed by me for freela
 
   - __Sentence Semantic Similarity__: Coming Soon!.
 
-<img src="https://github.com/danvargg/folio/blob/master/nextword/similarity.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
 
 [Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | _Tools: Python, NLTK, Numpy, Pandas, Scikit-Learn_
 
