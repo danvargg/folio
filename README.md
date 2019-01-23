@@ -28,7 +28,7 @@ This is a repository containing data science projects completed by me for freela
 
 	- __Eyetrack__: Coming Soon!
 
-<img src="https://github.com/danvargg/folio/tree/master/eye_track/eye_track.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=50%>
 
 [Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | _Algorithms: Random Forest, K-Means, Logistic Regression_
 
@@ -46,7 +46,7 @@ This is a repository containing data science projects completed by me for freela
 
   - __Sentence Semantic Similarity__: Coming Soon!.
 
-<img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/nextword/similarity.PNG" width=50%>
 
 [Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | _Tools: Python, NLTK, Numpy, Pandas, Scikit-Learn_
 
