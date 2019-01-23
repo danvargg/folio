@@ -6,16 +6,15 @@ This is a repository containing data science projects completed by me for freela
 
 - ### Artificial Intelligence (Deep Learning)
   
-  - [Bees Classification]
-    - [Code](https://google.ca)
+  - __Bees Classification__
+    - [Notebook](https://google.ca)
     
-  _Tools: Python, Keras, Numpy, Matplotlib_
-  _Algorithms: CNN_
+  _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
 
-  - [Medical Imaging]
-    - [Code](https://google.ca)
+  - __Medical Imaging__
+    - [Notebook](https://google.ca)
     
-  _Tools: Python, CNTK, Numpy, Matplotlib_
+  _Tools: Python, Tensorflow, Numpy, Matplotlib_
 
 - ### Machine Learning
 
@@ -49,22 +48,18 @@ This is a repository containing data science projects completed by me for freela
 
   - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
 
-![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
-
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_ | 2017
 
-  - __Brasil Climate__: Location of road observation cameras (PTZ) in Montreal area.
+  - __Brasil Climate__: Coming Soon!
 
-![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
-  
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
+[Code]() | [Application]() | _Tools: R, Leaflet_
 
-  - __Bixi__: Location of road observation cameras (PTZ) in Montreal area.
+  - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
 
-![Geolocation of cameras](https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG)
+_Note: During Canadian winter months, all stations are yellow (empty)_
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](https://danvargg.shinyapps.io/bixi/) | _Tools: R, Leaflet, Shiny, _
 
 _Note: Codes and data have been modified to keep data and original code confidentiality_
