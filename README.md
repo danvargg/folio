@@ -7,14 +7,10 @@ This is a repository containing data science projects completed by me for freela
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: Coming Soon!
-    - [Notebook](https://google.ca)
-    
-  _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
+[Notebook](https://google.ca) _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
 
   - __Medical Imaging__: Coming Soon!
-    - [Notebook](https://google.ca)
-    
-  _Tools: Python, Tensorflow, Numpy, Matplotlib_
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) _Tools: Python, Tensorflow, Numpy, Matplotlib_
 
 - ## Machine Learning
 
@@ -32,7 +28,9 @@ This is a repository containing data science projects completed by me for freela
 
 	- __Eyetrack__: Coming Soon!
 
-	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+<img src="https://github.com/danvargg/folio/tree/master/eye_track/eye_track.PNG" width=50%>
+
+[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | _Algorithms: Random Forest, K-Means, Logistic Regression_
 
 	- __Aura__: Coming Soon!
 
@@ -45,6 +43,12 @@ This is a repository containing data science projects completed by me for freela
 <img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | _Tools: R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_
+
+  - __Sentence Semantic Similarity__: Coming Soon!.
+
+<img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
+
+[Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | _Tools: Python, NLTK, Numpy, Pandas, Scikit-Learn_
 
 - ## Data Visualisation
 
