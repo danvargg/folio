@@ -4,7 +4,7 @@ This is a repository containing data science projects completed by me for freela
 
 ## Contents
 
-- ### Artificial Intelligence (Deep Learning)
+- ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: Coming Soon!
     - [Notebook](https://google.ca)
@@ -16,7 +16,7 @@ This is a repository containing data science projects completed by me for freela
     
   _Tools: Python, Tensorflow, Numpy, Matplotlib_
 
-- ### Machine Learning
+- ## Machine Learning
 
 	- __Clicks Prediction__: Coming Soon!
 
@@ -38,15 +38,15 @@ This is a repository containing data science projects completed by me for freela
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-- ### Natural Language Processing
+- ## Natural Language Processing
 
-	  - __Next Word__: This application predicts the next word to be typed based on N-gram “Stupid Backoff” model algorithm.
+  - __Next Word Prediction__: This application predicts the next word to be typed based on N-gram `Stupid Backoff` model algorithm.
 
 <img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | _Tools: R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_
 
-- ### Data Visualisation
+- ## Data Visualisation
 
   - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
 
