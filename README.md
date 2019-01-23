@@ -6,35 +6,35 @@ This is a repository containing data science projects completed by me for freela
 
 - ### Artificial Intelligence (Deep Learning)
   
-  - __Bees Classification__
+  - __Bees Classification__: Coming Soon!
     - [Notebook](https://google.ca)
     
   _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
 
-  - __Medical Imaging__
+  - __Medical Imaging__: Coming Soon!
     - [Notebook](https://google.ca)
     
   _Tools: Python, Tensorflow, Numpy, Matplotlib_
 
 - ### Machine Learning
 
-	- [Clicks Prediction](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+	- __Clicks Prediction__: Coming Soon!
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- [NYC Prediction](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+	- __NYC Prediction__: Coming Soon!
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- [Stocks Prediction](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+	- __Stocks Prediction__: Coming Soon!
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- [Eyetrack](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+	- __Eyetrack__: Coming Soon!
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- [Aura](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): A model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+	- __Aura__: Coming Soon!
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
@@ -42,7 +42,7 @@ This is a repository containing data science projects completed by me for freela
 
 	  - __Next Word__: This application predicts the next word to be typed based on N-gram “Stupid Backoff” model algorithm.
 
-<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | _Tools: R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_
 
@@ -64,6 +64,6 @@ This is a repository containing data science projects completed by me for freela
 
 _Note: During Canadian winter months, all stations are yellow (empty)_
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](https://danvargg.shinyapps.io/bixi/) | _Tools: R, Leaflet, Shiny, _
+[Code](https://github.com/danvargg/folio/tree/master/bixi) | [Application](https://danvargg.shinyapps.io/bixi/) | _Tools: R, Leaflet, Shiny_
 
 _Note: Codes and data have been modified to keep data and original code confidentiality_
