@@ -40,9 +40,11 @@ This is a repository containing data science projects completed by me for freela
 
 - ### Natural Language Processing
 
-	  - [Next Word](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
+	  - __Next Word__: This application predicts the next word to be typed based on N-gram “Stupid Backoff” model algorithm.
 
-	_Tools: NLTK, scikit_
+<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
+
+[Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | _Tools: R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_
 
 - ### Data Visualisation
 
@@ -50,13 +52,15 @@ This is a repository containing data science projects completed by me for freela
 
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_ | 2017
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
 
   - __Brasil Climate__: Coming Soon!
 
 [Code]() | [Application]() | _Tools: R, Leaflet_
 
   - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
+
+<img src="https://github.com/danvargg/folio/blob/master/bixi/Bixi.PNG" width=50%>
 
 _Note: During Canadian winter months, all stations are yellow (empty)_
 
