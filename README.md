@@ -18,7 +18,11 @@ This is a repository containing data science projects completed by me for freela
 
 	- __NYC Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- __Stocks Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __Stocks Prediction__: Coming Soon!
+[Notebook](https://github.com/danvargg/folio/blob/master/stocks_pred/Stocks_Prediction.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn_ | _Algorithms: Linear Regression_
+
+	- __Image Classifier__: Coming Soon!
+[Notebook](https://github.com/danvargg/folio/blob/master/img_class/Image_classifier.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | _Algorithms: Random Forest, SVM_
 
 	- __Eyetrack__: Coming Soon!
 
