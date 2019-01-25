@@ -16,8 +16,6 @@ This is a repository containing data science projects completed by me for freela
 
 	- __Clicks Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
-	- __NYC Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
-
 	- __Stocks Prediction__: Coming Soon!
 [Notebook](https://github.com/danvargg/folio/blob/master/stocks_pred/Stocks_Prediction.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn_ | _Algorithms: Linear Regression_
 
