@@ -10,17 +10,17 @@ This is a repository containing data science projects completed by me for freela
 [Notebook](https://google.ca) | **Tools**: _Python, Keras, Numpy, Matplotlib_ | **Algorithms**: _CNN_
 
   - __Medical Imaging__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib_
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib_ | **Algorithms**: _CNN_
 
 - ## Machine Learning
 
-	- __Clicks Prediction__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __Clicks Prediction__: Coming Soon! | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**: _Linear Regression_
 
 	- __Stocks Prediction__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/stocks_pred/Stocks_Prediction.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn_ | _Algorithms: Linear Regression_
+[Notebook](https://github.com/danvargg/folio/blob/master/stocks_pred/Stocks_Prediction.ipynb) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
 	- __Image Classifier__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/img_class/Image_classifier.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | _Algorithms: Random Forest, SVM_
+[Notebook](https://github.com/danvargg/folio/blob/master/img_class/Image_classifier.ipynb) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
 
 	- __Eyetrack__: A machine learning model that predicts whether an individual will read word incorrectly or not.
 
@@ -29,7 +29,7 @@ This is a repository containing data science projects completed by me for freela
 [Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
 	- __Aura__: Coming Soon! 
-[Notebook] | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+[Code] | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**:
 
 - ## Natural Language Processing
 
@@ -37,13 +37,13 @@ This is a repository containing data science projects completed by me for freela
 
 <img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | _Tools: R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_
+[Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | **Tools**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
   - __Sentence Semantic Similarity__: Coming Soon!.
 
 <img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | _Tools: Python, NLTK, Numpy, Pandas, Scikit-Learn_
+[Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | **Tools**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**:
 
 - ## Data Visualisation
 
@@ -51,13 +51,13 @@ This is a repository containing data science projects completed by me for freela
 
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | **Tools**: _R, Leaflet_
 
   - __Brasil Climate__: Coming Soon!
 
 <img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | _Tools: R, Leaflet, Plyr, Shiny, rCharts_
+[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | **Tools**: _R, Leaflet, Plyr, Shiny, rCharts_
 
   - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
 
@@ -65,6 +65,6 @@ This is a repository containing data science projects completed by me for freela
 
 _Note: During Canadian winter months, all stations are yellow (empty)_
 
-[Code](https://github.com/danvargg/folio/tree/master/bixi) | [Application](https://danvargg.shinyapps.io/bixi/) | _Tools: R, Leaflet, Shiny_
+[Code](https://github.com/danvargg/folio/tree/master/bixi) | [Application](https://danvargg.shinyapps.io/bixi/) | **Tools**: _R, Leaflet, Shiny_
 
 _Note: Codes and data have been modified to keep data and original code confidentiality_
