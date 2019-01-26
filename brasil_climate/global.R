@@ -1,5 +1,3 @@
-setwd("C:/Users/devg2/Google Drive/data-science/fl/UW011 - Brasil Climate/climate")
-
 library(plyr)
 library(shiny)
 library(shinythemes)

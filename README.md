@@ -54,7 +54,10 @@ This is a repository containing data science projects completed by me for freela
 
   - __Brasil Climate__: Coming Soon!
 
-[Code]() | [Application]() | _Tools: R, Leaflet_
+<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
+
+[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | _Tools: R, Leaflet_
 
   - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
 
