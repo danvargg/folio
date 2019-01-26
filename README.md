@@ -29,7 +29,7 @@ This is a repository containing data science projects completed by me for freela
 [Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
 	- __Aura__: Coming Soon! 
-[Notebook ]| _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+[Notebook] | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
 - ## Natural Language Processing
 
