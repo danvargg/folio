@@ -7,7 +7,7 @@ This is a repository containing data science projects completed by me for freela
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: Coming Soon!
-[Notebook](https://google.ca) | _Tools: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
+[Notebook](https://google.ca) | _**Tools**: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
 
   - __Medical Imaging__: Coming Soon!
 [Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib_
@@ -57,7 +57,7 @@ This is a repository containing data science projects completed by me for freela
 <img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%>
 <img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | _Tools: R, Leaflet_
+[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | _Tools: R, Leaflet, Plyr, Shiny, rCharts_
 
   - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
 
