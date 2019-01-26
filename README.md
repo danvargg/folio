@@ -7,7 +7,7 @@ This is a repository containing data science projects completed by me for freela
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: Coming Soon!
-[Notebook](https://google.ca) | _**Tools**: Python, Keras, Numpy, Matplotlib_ | _Algorithms: CNN_
+[Notebook](https://google.ca) | **Tools**: _Python, Keras, Numpy, Matplotlib_ | **Algorithms**: _CNN_
 
   - __Medical Imaging__: Coming Soon!
 [Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib_
@@ -22,13 +22,14 @@ This is a repository containing data science projects completed by me for freela
 	- __Image Classifier__: Coming Soon!
 [Notebook](https://github.com/danvargg/folio/blob/master/img_class/Image_classifier.ipynb) | _Tools: Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | _Algorithms: Random Forest, SVM_
 
-	- __Eyetrack__: Coming Soon!
+	- __Eyetrack__: A machine learning model that predicts whether an individual will read word incorrectly or not.
 
 <img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | _Tools: Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | _Algorithms: Random Forest, K-Means, Logistic Regression_
+[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
-	- __Aura__: Coming Soon! | _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
+	- __Aura__: Coming Soon! 
+[Notebook ]| _Tools: scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ 
 
 - ## Natural Language Processing
 
