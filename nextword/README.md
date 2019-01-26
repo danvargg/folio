@@ -1,9 +1,5 @@
 ## Data Science Specialization Capstone Project
 
-* Author: [Daniel Vargas](https://www.linkedin.com/in/daniel-vargas-64210b26)
-* Date: June 16, 2017
-* [Code](https://github.com/danvargg/folio/tree/master/nextword)
-
 ### The project
 
 This is an usable public data product in the area of natural language processing.
