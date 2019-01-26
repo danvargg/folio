@@ -55,8 +55,7 @@ This is a repository containing data science projects completed by me for freela
 
   - __Brasil Climate__: Coming Soon!
 
-<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%>
-<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | _Tools: R, Leaflet, Plyr, Shiny, rCharts_
 
