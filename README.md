@@ -7,9 +7,15 @@ This is a repository containing data science projects completed by me for freela
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
+
+<img src="https://github.com/danvargg/folio/blob/master/bees_ai/bees.PNG" width=50%>
+
 [Code](https://github.com/danvargg/folio/blob/master/bees_ai/cnn_bees.py) | **Tools**: _Python, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
 
   - __Medical Imaging__: A Convolutional Neural Network (CNN) model that predicts the orientation of a `CT scan`.
+
+<img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
+
 [Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tools**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
 
 - ## Machine Learning
