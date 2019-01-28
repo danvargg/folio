@@ -10,8 +10,6 @@ from keras import optimizers
 import time
 import pandas as pd
 
-os.chdir('C:/Users/devg2/Desktop/data')
-
 train_datagen = ImageDataGenerator(rescale = 1./255, 
                                    shear_range = 0.2, 
                                    zoom_range = 0.2,
@@ -106,7 +104,7 @@ training_set.class_indices
 
 prob = classifier.predict_generator(test_set) #predict_proba / predict_generator
 
-counter = os.listdir('C:/Users/devg2/Desktop/for_model/model/data/test/test')
+counter = os.listdir('C:/Users/...')
 counter = counter[:-1]
 solution = pd.DataFrame({"id": counter, "label":list(prob)})
 solution['id'] = solution['id'].replace('.jpg', ' ', regex=True)

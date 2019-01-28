@@ -6,18 +6,18 @@ This is a repository containing data science projects completed by me for freela
 
 - ## Artificial Intelligence (Deep Learning)
   
-  - __Bees Classification__: Coming Soon!
-[Notebook](https://google.ca) | **Tools**: _Python, Keras, Numpy, Matplotlib_ | **Algorithms**: _CNN_
+  - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
+[Code](https://github.com/danvargg/folio/blob/master/bees_ai/cnn_bees.py) | **Tools**: _Python, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
 
-  - __Medical Imaging__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib_ | **Algorithms**: _CNN_
+  - __Medical Imaging__: A Convolutional Neural Network (CNN) model that predicts the orientation of a `CT scan`.
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tools**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
 
 - ## Machine Learning
 
 	- __Clicks Prediction__: Coming Soon! | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**: _Linear Regression_
 
-	- __Stocks Prediction__: Coming Soon!
-[Notebook](https://github.com/danvargg/folio/blob/master/stocks_pred/Stocks_Prediction.ipynb) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
+	- __Stocks Prediction__: A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
+[Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
 	- __Image Classifier__: Coming Soon!
 [Notebook](https://github.com/danvargg/folio/blob/master/img_class/Image_classifier.ipynb) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_

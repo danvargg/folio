@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-# Define the instruments to download. We would like to see Apple, Microsoft and the S&P500 index.
+# Define the instruments to download
 ticker = 'GOOGL'
 
 # Define which online source one should use
