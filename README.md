@@ -69,8 +69,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
   - __Telemetry Dashboard__: Dashboard to visualize telemetry data from multiple devices: timeline visual, raw data and geolocation.
 
-<img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG width=50%> <img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=50%> 
-<img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=50%>
 
 [Images](https://github.com/danvargg/folio/tree/master/telemetry) | **Tools**: _R, Leaflet, Shiny, Plotly_
 
