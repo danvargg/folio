@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.svm import SVR
 import os
 
-dir = 'C:/Users/dvargas/Google Drive/data-science/fl/UW006 - Image Classification - Py' ## put the directory here
+dir = 'C:/Users/...' ## put the directory here
 
 os.chdir(dir)
 
