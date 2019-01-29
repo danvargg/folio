@@ -2,8 +2,6 @@
 
 This is a repository containing data science projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
 
-## Contents
-
 - ## Artificial Intelligence (Deep Learning)
   
   - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
