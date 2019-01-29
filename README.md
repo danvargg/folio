@@ -22,9 +22,13 @@ This is a repository containing data science projects completed by me for freela
 
 	- __Stocks Prediction__: A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
 
+<img src="https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.PNG" width=50%>
+
 [Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
 	- __Image Classifier__: A Random Forest model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
+
+<img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
 
