@@ -34,8 +34,11 @@ This is a repository containing data science projects completed by me for freela
 
 [Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
-	- __Aura__: Coming Soon! 
-[Code] | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**:
+	- __Recommender System__: This application recommends the best content based on user input.
+
+<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
+
+[Code] | **Tools**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
 
 - ## Natural Language Processing
 
@@ -57,9 +60,9 @@ This is a repository containing data science projects completed by me for freela
 
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/Geolocation/geo.Rmd) | [Application](http://rpubs.com/danvargg/geomap) | **Tools**: _R, Leaflet_
+[Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tools**: _R, Leaflet_
 
-  - __Brasil Climate__: Coming Soon!
+  - __Temperature and Precipitation__: This application explores temperature and precipitation projections for communities across Brasil.
 
 <img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
