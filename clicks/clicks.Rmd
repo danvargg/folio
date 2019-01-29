@@ -1,0 +1,135 @@
+---
+title: "Outbrain Click Prediction: Final Project"
+output:
+  html_document:
+    theme: simplex
+    highlight: tango
+    code_folding: show
+---
+
+## Introduction
+
+Outbrain, a content discovery platform, it finds relevant content and pairs with curious readers in about `250 billion` personalized recommendations every month across the world wide web. In this challenges on **Kaggle**, Outbrain challenges data scientists to predict which pieces of content its global base of users are likely to click on.
+
+## The Data
+
+The dataset contains users' page views and clicks, as seen on multiple publishing sites in the United States between 14-June-2016 and 28-June-2016. The dataset contains numerous sets of content recommendations served to a specific user in a specific context. Each context (i.e. a set of recommendations) is given a `display_id`. One `display_id` can have a set of ad_id. In each such set, the user has clicked on at least one recommendation. Each user in the dataset is represented by a unique id (`uuid`). A person can view a document (`document_id`), which is simply a web page with content (e.g. a news article). On each document, a set of ads (`ad_id`) are displayed. Each ad belongs to a campaign (`campaign_id`) run by an advertiser (`advertiser_id`). We are provided metadata about the document, such as which entities are mentioned, a taxonomy of categories, the topics mentioned, and the publisher.
+
+### Ingesting the Data into R
+
+```{r message = FALSE, warning = FALSE}
+library(data.table) ## Data ingesting
+library(dplyr) ## Data manipulation
+library(ggplot2) ## Data visualization
+library(caret) ## Machine learning algorithms
+library(e1071) ## Machine learning algorithms
+library(pryr)
+
+mem_used()
+
+## fread function used due to the large amount of data
+events <- fread("C:/Users/devg2/Desktop/clicks/events.csv", nrows = 800000, showProgress = FALSE)
+page_views_sample <- fread("C:/Users/devg2/Desktop/clicks/page_views_sample.csv", nrows = 800000, showProgress = FALSE)
+clicks_train <- fread("C:/Users/devg2/Desktop/clicks/clicks_train.csv", nrows = 800000, showProgress = FALSE)
+promoted_content <- fread("C:/Users/devg2/Desktop/clicks/promoted_content.csv", nrows = 800000, showProgress = FALSE)
+document_entities <- fread("C:/Users/devg2/Desktop/clicks/documents_entities.csv", nrows = 800000, showProgress = FALSE)
+document_topics <- fread("C:/Users/devg2/Desktop/clicks/documents_meta.csv", nrows = 800000, showProgress = FALSE)
+document_categories <- fread("C:/Users/devg2/Desktop/clicks/documents_categories.csv", nrows = 800000, showProgress = FALSE)
+```
+
+### Pre-processing the Data for Modeling
+
+The datasets were merged based on the common relationships between them. By using the `merge` function from base R. And the variables were converted to the appropriate structure for analysis.
+
+```{r message = FALSE, warning = FALSE}
+## Merging the datasets to create model
+## Clicks and Events
+clicks_events <- merge(clicks_train, events, by = "display_id")
+## and Page Views Samples
+clicks_events_views <- merge(clicks_events, page_views_sample, by = "uuid")
+## and Promoted Content
+c_e_v_p <- merge(clicks_events_views, promoted_content, by = "ad_id")
+## and Document Entities
+c_e_v_p_e <- merge(c_e_v_p, document_entities, by = "document_id")
+## and Document Topics
+c_e_v_p_e_t <- merge(c_e_v_p_e, document_topics, by = "document_id")
+## Document Categories (Final dataset)
+data <- merge(c_e_v_p_e_t, document_categories, by = "document_id")
+
+## Slecting appropriatte features for modeling
+data <- data[, c(2, 4, 5, 7, 8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22)]
+
+## Turning features into the correct data type
+data$ad_id  <- as.factor(data$ad_id)
+data$display_id <- as.factor(data$display_id)
+data$clicked <- as.factor(data$clicked)
+data$platform.x <- as.factor(data$platform.x)
+data$geo_location.x <- as.factor(data$geo_location.x)
+data$traffic_source <- as.factor(data$traffic_source)
+data$campaign_id <- as.factor(data$campaign_id)
+data$advertiser_id <- as.factor(data$advertiser_id )
+data$entity_id <- as.factor(data$entity_id)
+data$source_id <- as.factor(data$source_id)
+data$publisher_id <- as.factor(data$publisher_id)
+data$publish_time <- as.Date(data$publish_time)
+data$category_id <- as.factor(data$category_id)
+
+mem_used()
+
+# Removing dataframes to free memory before modeling
+rm(clicks_events, clicks_events_views, c_e_v_p, c_e_v_p_e, c_e_v_p_e_t)
+rm(events, page_views_sample, clicks_train, promoted_content, document_topics, document_categories, document_entities)
+```
+
+The final features selected for modeling were:
+
+```{r message = FALSE, warning = FALSE}
+head(data)
+# Memory used
+mem_used()
+```
+
+
+## The Prediction
+
+### Data Preparation for modeling
+
+After spliting the dataset into `train` (70%) and `test` (30%), two models were tested using the 'caret' package: Logistic Regression adn Random Forests. Both models were compared for performance through their accuracy metric.
+
+```{r message = FALSE, warning = FALSE}
+## Splitting the dataset into training and test sets
+intrain <- createDataPartition(data$clicked, p = 0.7, list = FALSE)
+train <- data[intrain, ]
+test <- data[-intrain, ]
+test <- test[complete.cases(test), ] ## Complete cases to be able to compute the confusion matrix
+rm(data)
+mem_used()
+set.seed(0)
+```
+
+### Logistic Regression model
+
+```{r message = FALSE, warning = FALSE}
+reg <- train(clicked ~., data = train, method="glm", family="binomial", na.action = na.omit)
+reg_pred <- predict(reg, test, type = "raw", metric = "Accuracy")
+confusionMatrix(data = reg_pred, reference = test$clicked, mode = "prec_recall")
+```
+
+### Random Forest model
+
+```{r message = FALSE, warning = FALSE}
+forest <- train(clicked ~., method = "rf", ntree = 300, data = train, na.action = na.omit)
+forest_pred <- predict(forest, test, type = "raw", metric = "Accuracy")
+confusionMatrix(data = forest_pred, reference = test$clicked)
+plot(forest)
+```
+
+### Prediction models comparison
+
+```{r message = FALSE, warning = FALSE}
+results <- resamples(list("Logistic Regression" = reg, "Random Forest" = forest))
+summary(results)
+bwplot(results)
+```
+
+The comparison shows that the `MODEL` provides a better accuracy (`1000000%`) on the test set.

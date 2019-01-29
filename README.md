@@ -18,7 +18,9 @@ This is a repository containing data science projects completed by me for freela
 
 - ## Machine Learning
 
-	- __Clicks Prediction__: Coming Soon! | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**: _Linear Regression_
+	- __Clicks Prediction__: A Random Forest model that predicts which pieces of content a base of users is likely to click on.
+
+[Code]| **Tools**: _R, Caret, e1071, ggplot2_ | **Algorithms**: _Random Forest_
 
 	- __Stocks Prediction__: A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
 
