@@ -23,9 +23,11 @@ This is a repository containing data science projects completed by me for freela
 	- __Clicks Prediction__: Coming Soon! | **Tools**: _scikit-learn, Pandas, Seaborn, Matplotlib, Pygame_ | **Algorithms**: _Linear Regression_
 
 	- __Stocks Prediction__: A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
+
 [Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
 	- __Image Classifier__: A Random Forest model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
+
 [Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
 
 	- __Eyetrack__: A machine learning model that predicts whether an individual will read word incorrectly or not.
@@ -36,9 +38,9 @@ This is a repository containing data science projects completed by me for freela
 
 	- __Recommender System__: This application recommends the best content based on user input.
 
-<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/recomm/recomm.PNG" width=50%>
 
-[Code] | **Tools**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
+[Code](https://github.com/danvargg/folio/tree/master/recomm) | **Tools**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
 
 - ## Natural Language Processing
 
@@ -48,11 +50,11 @@ This is a repository containing data science projects completed by me for freela
 
 [Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | **Tools**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
-  - __Sentence Semantic Similarity__: Coming Soon!.
+  - __Sentence Semantic Similarity__: A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
 
 <img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/similarity/RTM_sentence_similarity.ipynb) | **Tools**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**:
+[Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tools**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
 
 - ## Data Visualisation
 
