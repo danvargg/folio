@@ -1,6 +1,6 @@
-# Data Science Portfolio of Projects
+# Machine Learning Portfolio of Projects
 
-This is a repository containing data science projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
+This is a repository containing machine learning projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
 
 ## Artificial Intelligence (Deep Learning)
   
