@@ -40,3 +40,16 @@ cp innodem.pem /home/danvargg
 
 #Key only readable by me
 chmod 400 innodem.pem
+
+#VScode settings.json
+{
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
+    "workbench.sideBar.location": "right",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        90
+    ],
+    "workbench.colorTheme": "Monokai Dimmed"
+}
