@@ -19,6 +19,8 @@ cd /mnt/c/
 
 # Upgrade python
 
+# Install pip
+sudo apt install python3-pip
 
 # Upgrade pip
 sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
