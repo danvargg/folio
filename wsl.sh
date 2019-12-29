@@ -29,7 +29,7 @@ sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
 python3 -m pip install <package>
 
 #.sh file permission
-chmon +x in.sh
+sudo chmod +x in.sh
 
 # Change dir
 . in.sh
