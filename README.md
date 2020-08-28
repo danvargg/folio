@@ -12,6 +12,14 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 ---
 
+- __Facial Key Points Detection__: TBD.
+
+<img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
+
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
+
+---
+
 - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
 
 <img src="https://github.com/danvargg/folio/blob/master/bees_ai/bees.PNG" width=50%>
@@ -122,9 +130,15 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 <img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/diabetes.png" width=50%>
 
-_Note: During Canadian winter months, all stations are yellow (empty)_
-
 [Code](https://github.com/danvargg/folio/blob/master/mini/diabetes/code) | **Algorithms**: _Logistic Regression_ | **Tech**: _Azure ML_
+
+---
+
+- __Sentiment Analysis__: TBD.
+
+<img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/xxxxx.png" width=50%>
+
+[Code](xxxx) TBD | **Algorithms**: _Logistic Regression_ | **Tech**: _Azure ML_
 
 ---
 
