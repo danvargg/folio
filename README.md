@@ -4,9 +4,9 @@ This is a repository containing machine learning projects completed by me for fr
 
 ## Computer Vision
 
-- __Innodem Neurosciences__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
+- __@innodem-neurosciences__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
 
-<img src="https://github.com/danvargg/folio/blob/master/inn/eyepic2.png" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/inn/eyepic2.png" width=25%>
 
 Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Scikit-Learn, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
 
