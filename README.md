@@ -1,14 +1,22 @@
-# Machine Learning Portfolio of Projects
+# Portfolio of Projects
 
 This is a repository containing machine learning projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
 
-## Artificial Intelligence (Deep Learning)
-  
+## Computer Vision
+
+- __Innodem Neurosciences__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
+
+<img src="https://github.com/danvargg/folio/blob/master/inn/eyepic2.PNG" width=50%>
+
+Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Scikit-Learn, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
+
+---
+
 - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
 
 <img src="https://github.com/danvargg/folio/blob/master/bees_ai/bees.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/bees_ai/cnn_bees.py) | **Tools**: _Python, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
+[Code](https://github.com/danvargg/folio/blob/master/bees_ai/cnn_bees.py) | **Tech**: _Python, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
 
 ---
 
@@ -16,7 +24,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tools**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
+[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
 
 ## Machine Learning
 
@@ -24,7 +32,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/clicks/clicks.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/clicks) | **Tools**: _R, Caret, e1071, ggplot2_ | **Algorithms**: _Random Forest_
+[Code](https://github.com/danvargg/folio/tree/master/clicks) | **Tech**: _R, Caret, e1071, ggplot2_ | **Algorithms**: _Random Forest_
 
 ---
 
@@ -32,7 +40,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
+[Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
 ---
 
@@ -40,7 +48,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tools**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
+[Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
 
 ---
 
@@ -48,7 +56,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tools**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
+[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
 ---
 
@@ -56,7 +64,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/recomm/recomm.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/recomm) | **Tools**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
+[Code](https://github.com/danvargg/folio/tree/master/recomm) | **Tech**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
 
 ## Natural Language Processing
 
@@ -64,7 +72,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | **Tools**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
+[Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | **Tech**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
 ---
 
@@ -72,7 +80,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tools**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
+[Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tech**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
 
 ## Data Visualisation
 
@@ -80,7 +88,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tools**: _R, Leaflet_
+[Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tech**: _R, Leaflet_
 
 ---
 
@@ -88,7 +96,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 <img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
-[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | **Tools**: _R, Leaflet, Plyr, Shiny, rCharts_
+[Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | **Tech**: _R, Leaflet, Plyr, Shiny, rCharts_
 
 ---
 
@@ -98,7 +106,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 _Note: During Canadian winter months, all stations are yellow (empty)_
 
-[Code](https://github.com/danvargg/folio/tree/master/bixi) | [Application](https://danvargg.shinyapps.io/bixi/) | **Tools**: _R, Leaflet, Shiny_
+[Code](https://github.com/danvargg/folio/tree/master/bixi) | [Application](https://danvargg.shinyapps.io/bixi/) | **Tech**: _R, Leaflet, Shiny_
 
 ---
 
@@ -106,6 +114,6 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 <img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=50%>
 
-[Images](https://github.com/danvargg/folio/tree/master/telemetry) | **Tools**: _R, Leaflet, Shiny, Plotly_
+[Images](https://github.com/danvargg/folio/tree/master/telemetry) | **Tech**: _R, Leaflet, Shiny, Plotly_
 
 **_Note: Codes and data have been modified to keep data and original code confidentiality_**
