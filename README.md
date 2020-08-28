@@ -4,7 +4,7 @@ This is a repository containing machine learning projects completed by me for fr
 
 ## Computer Vision
 
-- __@innodem-neurosciences__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
+- __[Innodem Neurosciences](https://github.com/innodem-neurosciences)__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
 
 <img src="https://github.com/danvargg/folio/blob/master/inn/eyepic2.png" width=25%>
 
@@ -115,5 +115,17 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 <img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=50%>
 
 [Images](https://github.com/danvargg/folio/tree/master/telemetry) | **Tech**: _R, Leaflet, Shiny, Plotly_
+
+## Mini Projects
+
+- __Diabetes Classification__: A simple diabetes classification algorithm.
+
+<img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/diabetes.png" width=50%>
+
+_Note: During Canadian winter months, all stations are yellow (empty)_
+
+[Code](https://github.com/danvargg/folio/blob/master/mini/diabetes/code) | **Algorithms**: _Logistic Regression_ | **Tech**: _Azure ML_
+
+---
 
 **_Note: Codes and data have been modified to keep data and original code confidentiality_**
