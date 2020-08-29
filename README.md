@@ -1,7 +1,5 @@
 # Portfolio of Projects
 
-This is a repository containing machine learning projects completed by me for freelance, consulting and academic purposes. The projects are presented in iPython Notebooks and R markdown files (published at RPubs).
-
 ## Computer Vision
 
 - __[Innodem Neurosciences](https://github.com/innodem-neurosciences)__: Deep Learning algorithms development for mobile `gaze-tracking` technology and neurological `diagnostics`.
@@ -14,9 +12,9 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Facial Key Points Detection__: TBD.
 
-<img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/mlend/assets/sample_data.png" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
+[Code](https://github.com/danvargg/folio/blob/master/mlend/keypoint-detection.ipynb) | **Tech**: _Python, Numpy, Matplotlib, Keras_ | **Algorithms**: _CNN_
 
 ---
 
@@ -32,7 +30,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 <img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
+[Code](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
 
 ## Machine Learning
 
@@ -64,7 +62,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 <img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=50%>
 
-[Notebook](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
+[Code](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
 ---
 
@@ -128,17 +126,17 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 - __Diabetes Classification__: A simple diabetes classification algorithm.
 
-<img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/diabetes.png" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/diabetes.png" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/mini/diabetes/code) | **Algorithms**: _Logistic Regression_ | **Tech**: _Azure ML_
 
 ---
 
-- __Sentiment Analysis__: TBD.
+- __Sentiment Analysis__: A simple sentiment analysis algorithm.
 
-<img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/xxxxx.png" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/mini/sentiment/sentiment.png" width=50%>
 
-[Code](xxxx) TBD | **Algorithms**: _Logistic Regression_ | **Tech**: _Azure ML_
+[Code](https://github.com/danvargg/folio/blob/master/mini/sentiment/sentimentAnalysis.ipynb) | **Algorithms**: _Logistic Regression_ | **Tech**: _Scikit-Learn_
 
 ---
 
