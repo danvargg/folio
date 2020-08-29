@@ -12,7 +12,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Facial Key Points Detection__: TBD.
 
-<img src="https://github.com/danvargg/folio/blob/master/mlend/assets/sample_data.png" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/mlend/assets/sample_data.png" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/mlend/keypoint-detection.ipynb) | **Tech**: _Python, Numpy, Matplotlib, Keras_ | **Algorithms**: _CNN_
 
@@ -134,7 +134,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 - __Sentiment Analysis__: A simple sentiment analysis algorithm.
 
-<img src="https://github.com/danvargg/folio/blob/master/mini/sentiment/sentiment.png" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/mini/sentiment/sentiment.png" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/mini/sentiment/sentimentAnalysis.ipynb) | **Algorithms**: _Logistic Regression_ | **Tech**: _Scikit-Learn_
 
