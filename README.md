@@ -10,7 +10,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 ---
 
-- __Facial Key Points Detection__: TBD.
+- __Facial Key Points Detection__: A Convolutional Neural Network (CNN) that predicts the `facial keypoints` (`facial landmarks`) of a face image.
 
 <img src="https://github.com/danvargg/folio/blob/master/mlend/assets/sample_data.png" width=25%>
 
@@ -20,7 +20,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Bees Classification__: A Convolutional Neural Network (CNN) model that predicts if an image of a bee is either a `humble bee` or a `honey bee`.
 
-<img src="https://github.com/danvargg/folio/blob/master/bees_ai/bees.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/bees_ai/bees.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/bees_ai/cnn_bees.py) | **Tech**: _Python, Keras, Numpy, Matplotlib, Pandas_ | **Algorithms**: _CNN_
 
@@ -28,7 +28,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Medical Imaging__: A Convolutional Neural Network (CNN) model that predicts the orientation of a `CT scan`.
 
-<img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/med_ai/med_ai.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/med_ai/med_img_ai.ipynb) | **Tech**: _Python, Numpy, Matplotlib, CNTK, PIL_ | **Algorithms**: _CNN_
 
@@ -36,7 +36,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Clicks Prediction__: A Random Forest model that predicts which pieces of content a base of users is likely to click on.
 
-<img src="https://github.com/danvargg/folio/blob/master/clicks/clicks.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/clicks/clicks.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/clicks) | **Tech**: _R, Caret, e1071, ggplot2_ | **Algorithms**: _Random Forest_
 
@@ -44,7 +44,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Stocks Prediction__: A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
 
-<img src="https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
 
@@ -52,7 +52,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Image Classifier__: A Random Forest model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
 
-<img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
 
@@ -60,7 +60,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Eyetrack__: A machine learning model that predicts whether an individual will read word incorrectly or not.
 
-<img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
 
@@ -68,7 +68,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Recommender System__: This application recommends the best content based on user input.
 
-<img src="https://github.com/danvargg/folio/blob/master/recomm/recomm.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/recomm/recomm.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/recomm) | **Tech**: _Python, Numpy, Scikit-learn, Pandas_ | **Algorithms**: _KNN_
 
@@ -76,7 +76,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Next Word Prediction__: This application predicts the next word to be typed based on N-gram `Stupid Backoff` model algorithm.
 
-<img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/nextword/next_word.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/nextword) | [Application](https://danvargg.shinyapps.io/shiny/) | **Tech**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
@@ -84,7 +84,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Sentence Semantic Similarity__: A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
 
-<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tech**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
 
@@ -92,7 +92,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Interactive Geolocation Map__: Location of road observation cameras (PTZ) in Montreal area.
 
-<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tech**: _R, Leaflet_
 
@@ -100,7 +100,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Temperature and Precipitation__: This application explores temperature and precipitation projections for communities across Brasil.
 
-<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil1.PNG" width=25%><img src="https://github.com/danvargg/folio/blob/master/brasil_climate/brasil2.PNG" width=50%>
 
 [Code](https://github.com/danvargg/folio/tree/master/brasil_climate) | **Tech**: _R, Leaflet, Plyr, Shiny, rCharts_
 
@@ -108,7 +108,7 @@ Code (confidential) | **Tech**: _Python, Tensorflow 1.x / 2.x, OpenCV, dlib, Sci
 
 - __Bixi__: This application visualizes Montreal's Bixi bike sharing system in real time. It refreshes the data every 60 seconds and displays: Active stations, Inactive stations, Available docks per station, and Available bikes per station.
 
-<img src="https://github.com/danvargg/folio/blob/master/bixi/Bixi.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/bixi/Bixi.PNG" width=25%>
 
 _Note: During Canadian winter months, all stations are yellow (empty)_
 
@@ -118,7 +118,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 - __Telemetry Dashboard__: Dashboard to visualize telemetry data from multiple devices: timeline visual, raw data and geolocation.
 
-<img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=50%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=50%>
+<img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG" width=25%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=25%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=25%>
 
 [Images](https://github.com/danvargg/folio/tree/master/telemetry) | **Tech**: _R, Leaflet, Shiny, Plotly_
 
