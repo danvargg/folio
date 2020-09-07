@@ -42,14 +42,6 @@
 
 ---
 
-- __Stocks Prediction__: (2017 - 2017) A linear regression model that predicts if an `open` value of a stock will be higher than the `close` value, by reading a ticker from `Yahoo Finance` API.
-
-<img src="https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.PNG" width=25%>
-
-**Client**: Individual | [Code](https://github.com/danvargg/folio/blob/master/stocks_pred/stocks.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn_ | **Algorithms**: _Linear Regression_
-
----
-
 - __Image Classifier__: (2017 - 2017) A Random Forest model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
 
 <img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=25%>
@@ -86,23 +78,7 @@
 
 **Client**: [Scibase](https://scibase.co/) | Code (Confidential) | **Tech**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
----
-
-- __Sentence Semantic Similarity__: (2018 - 2018) A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
-
-<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=25%>
-
-[Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tech**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
-
 ## Data Visualisation
-
-- __Interactive Geolocation Map__: (2017 - 2017) Location of road observation cameras (PTZ) in Montreal area.
-
-<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=25%>
-
-[Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tech**: _R, Leaflet_
-
----
 
 - __Temperature and Precipitation__: (2017 - 2017) This application explores temperature and precipitation projections for communities across Brasil.
 
@@ -145,3 +121,17 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 [Code](https://github.com/danvargg/folio/blob/master/mini/sentiment/sentimentAnalysis.ipynb) | **Algorithms**: _Logistic Regression_ | **Tech**: _Scikit-Learn_
 
 ---
+
+- __Interactive Geolocation Map__: (2017 - 2017) Location of road observation cameras (`PTZ`) in Montreal area.
+
+<img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=25%>
+
+[Code](https://github.com/danvargg/folio/tree/master/Geolocation) | [Application](http://rpubs.com/danvargg/geomap) | **Tech**: _R, Leaflet_
+
+---
+
+- __Sentence Semantic Similarity__: (2018 - 2018) A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
+
+<img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=25%>
+
+[Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tech**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
