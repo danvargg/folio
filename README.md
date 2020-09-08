@@ -34,7 +34,7 @@
 
 ## Machine Learning
 
-- __Clicks Prediction__: (2017 - 2017) A Random Forest model that predicts which pieces of content a base of users is likely to click on.
+- __Clicks Prediction__: (2017 - 2017) A Random Forests model that predicts which pieces of content a base of users is likely to click on.
 
 <img src="https://github.com/danvargg/folio/blob/master/clicks/clicks.PNG" width=25%>
 
@@ -42,11 +42,11 @@
 
 ---
 
-- __Image Classifier__: (2017 - 2017) A Random Forest model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
+- __Image Classifier__: (2017 - 2017) A Random Forests model that predicts the label of an image (color and black & white) and then chooses the highest accuracy prediction.
 
 <img src="https://github.com/danvargg/folio/blob/master/img_class/img_class.PNG" width=25%>
 
-**Client**: Individual | [Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forest, SVM_
+**Client**: Individual | [Code](https://github.com/danvargg/folio/blob/master/img_class/uw006.py) | **Tech**: _Python, Pandas, Numpy, Scikit-Learn, CV2, Glob_ | **Algorithms**: _Random Forests, SVM_
 
 ---
 
@@ -54,7 +54,7 @@
 
 <img src="https://github.com/danvargg/folio/blob/master/eye_track/eye_track.PNG" width=25%>
 
-**Client**: Individual | [Code](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forest, K-Means, Logistic Regression_
+**Client**: Individual | [Code](https://github.com/danvargg/folio/blob/master/eye_track/Eye_tracking.ipynb) | **Tech**: _Python, Tensorflow, Numpy, Matplotlib, Seaborn, Scikit-Learn, NLTK, Pandas_ | **Algorithms**: _Random Forests, K-Means, Logistic Regression_
 
 ---
 
@@ -106,7 +106,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 ## Mini Projects
 
-- __Diabetes Classification__: (2018 - 2018) A simple diabetes classification algorithm.
+- __Diabetes Classification__: (2018) A simple diabetes classification algorithm.
 
 <img src="https://github.com/danvargg/folio/blob/master/mini/diabetes/diabetes.png" width=25%>
 
@@ -114,7 +114,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 ---
 
-- __Sentiment Analysis__: (2018 - 2018) A simple sentiment analysis algorithm.
+- __Sentiment Analysis__: (2018) A simple sentiment analysis algorithm.
 
 <img src="https://github.com/danvargg/folio/blob/master/mini/sentiment/sentiment.png" width=25%>
 
@@ -122,7 +122,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 ---
 
-- __Interactive Geolocation Map__: (2017 - 2017) Location of road observation cameras (`PTZ`) in Montreal area.
+- __Interactive Geolocation Map__: (2017) Location of road observation cameras (`PTZ`) in Montreal area.
 
 <img src="https://github.com/danvargg/folio/blob/master/Geolocation/geo_visual.PNG" width=25%>
 
@@ -130,8 +130,16 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 ---
 
-- __Sentence Semantic Similarity__: (2018 - 2018) A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
+- __Sentence Semantic Similarity__: (2018) A sentence semantic similarity model that provides a matrix for a set or stakeholder requirements from an `RTM`.
 
 <img src="https://github.com/danvargg/folio/blob/master/similarity/similarity.PNG" width=25%>
 
 [Code](https://github.com/danvargg/folio/tree/master/similarity) | **Tech**: _Python, NLTK, Numpy, Pandas, Scikit-Learn_ | **Algorithms**: _TFIDF_
+
+---
+
+- __Predicting Exercise Performance__: (2017) Predicting the manner in which people did a physical exercise.
+
+<img src="https://github.com/danvargg/folio/blob/master/mini/index.png.PNG" width=25%>
+
+[Code](https://rpubs.com/danvargg/experf) | **Tech**: _R, Caret, rpart, rattle, ggplot2_ | **Algorithms**: _Decision Trees, Random Forests_
