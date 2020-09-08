@@ -117,7 +117,7 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 **Client**: [Baseline Telematics](https://www.baseline.io/en/) | [Code](https://github.com/danvargg/folio/tree/master/telemetry) | **Tech**: _R, Leaflet, Shiny, Plotly_
 
-_Note: Clients projects' code _
+_Note: Each client's project code has been modified / reduced to a snippet only to maintain confidentiality_
 
 ## Mini Projects
 
