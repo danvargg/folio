@@ -140,6 +140,6 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 
 - __Predicting Exercise Performance__: (2017) Predicting the manner in which people did a physical exercise.
 
-<img src="https://github.com/danvargg/folio/blob/master/mini/index.png.PNG" width=25%>
+<img src="https://github.com/danvargg/folio/blob/master/mini/index.png" width=25%>
 
 [Code](https://rpubs.com/danvargg/experf) | **Tech**: _R, Caret, rpart, rattle, ggplot2_ | **Algorithms**: _Decision Trees, Random Forests_
