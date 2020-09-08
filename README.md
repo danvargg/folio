@@ -78,6 +78,19 @@
 
 **Client**: [Scibase](https://scibase.co/) | Code (Confidential) | **Tech**: _R, Tidyr, Dplyr, Stringr, Quanteda, Shiny_ | **Algorithms**: _Stupid Backoff_
 
+## Data Engineering
+
+- __Data Pipeline for Booking Bompany__: (2019 - 2019) Data pipeline from 3 different airline booking systems to client's database.
+
+<img src="https://github.com/danvargg/folio/blob/master/spartan/spartan.png" width=25%>
+
+**Client**: Spartan Tours | [Code](https://github.com/danvargg/folio/tree/master/spartan) | **Tech**: _Python, Numpy, Pandas_
+
+---
+
+- __DEND__: (2020 - 2020) TBD.
+
+
 ## Data Visualisation
 
 - __Temperature and Precipitation__: (2017 - 2017) This application explores temperature and precipitation projections for communities across Brasil.
@@ -103,6 +116,8 @@ _Note: During Canadian winter months, all stations are yellow (empty)_
 <img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry1.PNG" width=25%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry2.PNG" width=25%><img src="https://github.com/danvargg/folio/blob/master/telemetry/telemetry3.PNG" width=25%>
 
 **Client**: [Baseline Telematics](https://www.baseline.io/en/) | [Code](https://github.com/danvargg/folio/tree/master/telemetry) | **Tech**: _R, Leaflet, Shiny, Plotly_
+
+_Note: Clients projects' code _
 
 ## Mini Projects
 
